@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Verde para o botão "Sim" */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#nao {
+    background-color: #f44336; /* Vermelho para o botão "Não" */
+}
+
+@media (max-width: 768px) {
+    /* Estilos específicos para telas menores (celulares) */
+    body {
+        font-size: 14px;
+    }
+    button {
+        font-size: 12px;
+    }
+}
